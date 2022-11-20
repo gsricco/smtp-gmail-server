@@ -36,7 +36,7 @@ app.post('/send', async function (req, res) {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-        from: 'zimex-test', // sender address
+        from: 'contact-form', // sender address
         to: "gsricco@yandex.ru", // list of receivers
         subject: "Testing send message ✔", // Subject line
         // text: "Very well?", // plain text body
